@@ -1,0 +1,42 @@
+#drum-machine,
+.controls {
+  font-family: "Audiowide", cursive;
+}
+
+.drum-container {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  margin-top: -15vw;
+  padding: 5px 25px 5px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.drum-pad {
+  font-size: 32px;
+  text-align: center;
+  padding: 12px 0;
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  margin: 8px 0;
+  background-color: #333;
+  color: white;
+  opacity: 0.65;
+  -webkit-box-shadow: 0 0 2px 1px #fff;
+  box-shadow: 0 0 2px 1px #fff;
+}
+
+.drum-pad:hover {
+  opacity: 1;
+}

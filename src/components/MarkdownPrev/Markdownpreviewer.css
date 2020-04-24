@@ -1,0 +1,44 @@
+#wrapper {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  flex: 1;
+  justify-content: center;
+}
+
+.epwrapper {
+  flex: 1;
+}
+
+#editor,
+#preview {
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  padding-top: 10px;
+  border-top: 2px solid lightgray;
+}
+
+#preview {
+  border-left: 2px solid lightgrey;
+}
+
+.centerText {
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  #wrapper {
+    flex-direction: column;
+  }
+  #editor,
+  #preview {
+    height: 250px;
+    overflow-y: scroll;
+  }
+  #preview {
+    border-left: 0;
+  }
+}

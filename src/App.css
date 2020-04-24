@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: "Audiowide", cursive;
+}
+.App i {
+  padding-top: 0.5em;
+  font-size: 45px;
+  padding-bottom: 0.5em;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  padding: 10px 5px;
+  box-shadow: 0px 0px 4px lightgrey;
+  align-items: center;
+}
+nav h1 {
+  margin: 0;
+  margin-left: 60px;
+  border: 1px solid black;
+  padding: 2px 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px;
+  margin: 5px;
+}
+
+nav ul li:hover {
+  color: rgba(1, 17, 1, 0.938);
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
